@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fictionType"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/white">
+
+
+        <TextView
+            android:drawableLeft="@drawable/fiction_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FICTION"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dramaType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/white">
+
+
+        <TextView
+            android:drawableLeft="@drawable/drama_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DRAMA"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/humorType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite">
+
+
+        <TextView
+            android:drawableLeft="@drawable/humor_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HUMOR"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/politicsType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite">
+
+
+        <TextView
+            android:drawableLeft="@drawable/politics_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POLITICS"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/philosophyType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite">
+
+
+        <TextView
+            android:drawableLeft="@drawable/phylosophy_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHILOSOPHY"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/historyType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite">
+
+
+        <TextView
+            android:drawableLeft="@drawable/history_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HISTORY"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/adventureType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite">
+
+
+        <TextView
+            android:drawableLeft="@drawable/adventure_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADVENTURE"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/darkGrey"
+            android:drawableRight="@drawable/next_icon"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
